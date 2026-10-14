@@ -1,13 +1,1 @@
-FROM python:3.11-slim
-
-# ffmpeg for video processing
-RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg \
-    && rm -rf /var/lib/apt/lists/*
-
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-COPY app.py .
-
-# Render/Modal inject $PORT; default 8000
-CMD ["sh", "-c", "uvicorn app:app --host 0.0.0.0 --port ${PORT:-8000}"]
+RlJPTSBweXRob246My4xMS1zbGltCgojIGZmbXBlZyBmb3IgdmlkZW8gcHJvY2Vzc2luZzsgbGliZ2wxK2xpYmdvbXAxIGZvciBvcGVuY3Yvb25ueHJ1bnRpbWUgKHJlbWJnKQpSVU4gYXB0LWdldCB1cGRhdGUgJiYgYXB0LWdldCBpbnN0YWxsIC15IC0tbm8taW5zdGFsbC1yZWNvbW1lbmRzIGZmbXBlZyBsaWJnbDEgbGliZ29tcDEgXAogICAgJiYgcm0gLXJmIC92YXIvbGliL2FwdC9saXN0cy8qCgpXT1JLRElSIC9hcHAKQ09QWSByZXF1aXJlbWVudHMudHh0IC4KUlVOIHBpcCBpbnN0YWxsIC0tbm8tY2FjaGUtZGlyIC1yIHJlcXVpcmVtZW50cy50eHQKQ09QWSBhcHAucHkgLgoKIyBSZW5kZXIvTW9kYWwgaW5qZWN0ICRQT1JUOyBkZWZhdWx0IDgwMDAKQ01EIFsic2giLCAiLWMiLCAidXZpY29ybiBhcHA6YXBwIC0taG9zdCAwLjAuMC4wIC0tcG9ydCAke1BPUlQ6LTgwMDB9Il0K
