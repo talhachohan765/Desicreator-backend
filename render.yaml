@@ -1,0 +1,15 @@
+# One-click deploy on Render (free tier, no card needed)
+services:
+  - type: web
+    name: desicreator-backend
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: BACKEND_API_KEY
+        generateValue: true
+      - key: ALLOWED_ORIGINS
+        value: https://desicreator.vercel.app
+      - key: MAX_UPLOAD_MB
+        value: "100"
