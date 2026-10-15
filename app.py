@@ -1,1 +1,252 @@
-IiIiCkRlc2lDcmVhdG9yIEJhY2tlbmQg4oCUIGZyZWUgdmlkZW8tcHJvY2Vzc2luZyBBUEkgKGZmbXBlZykuClJ1bnMgb24gUmVuZGVyIGZyZWUgdGllciBvciBNb2RhbC4gQXN5bmMgam9iIHBhdHRlcm46CiAgUE9TVCAvcHJvY2VzcyAodXBsb2FkKSAtPiAyMDIgKyBqb2JfaWQgLT4gR0VUIC9qb2Ive2lkfSAocG9sbCkgLT4gR0VUIC9kb3dubG9hZC97aWR9CkVudiB2YXJzOgogIEJBQ0tFTkRfQVBJX0tFWSAgLSBzaGFyZWQgc2VjcmV0OyBmcm9udGVuZCBzZW5kcyBYLUFQSS1LZXkgaGVhZGVyIChzZXQgb24gZGVwbG95KQogIEFMTE9XRURfT1JJR0lOUyAgLSBjb21tYS1zZXBhcmF0ZWQgQ09SUyBvcmlnaW5zIChkZWZhdWx0OiBodHRwczovL2Rlc2ljcmVhdG9yLnZlcmNlbC5hcHApCiAgTUFYX1VQTE9BRF9NQiAgICAtIHVwbG9hZCBjYXAgKGRlZmF1bHQgMTAwKQoiIiIKaW1wb3J0IG9zCmltcG9ydCB1dWlkCmltcG9ydCB0aW1lCmltcG9ydCBzaHV0aWwKaW1wb3J0IHRocmVhZGluZwppbXBvcnQgc3VicHJvY2Vzcwpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmZyb20gZmFzdGFwaSBpbXBvcnQgRmFzdEFQSSwgVXBsb2FkRmlsZSwgRmlsZSwgRm9ybSwgSFRUUEV4Y2VwdGlvbiwgSGVhZGVyCmZyb20gZmFzdGFwaS5yZXNwb25zZXMgaW1wb3J0IEZpbGVSZXNwb25zZSwgSlNPTlJlc3BvbnNlLCBSZXNwb25zZQpmcm9tIGZhc3RhcGkubWlkZGxld2FyZS5jb3JzIGltcG9ydCBDT1JTTWlkZGxld2FyZQoKQkFTRSA9IFBhdGgoIi90bXAvZGVzaWNyZWF0b3Itam9icyIpCkJBU0UubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQoKQVBJX0tFWSA9IG9zLmVudmlyb24uZ2V0KCJCQUNLRU5EX0FQSV9LRVkiLCAiIikKQUxMT1dFRF9PUklHSU5TID0gW28uc3RyaXAoKSBmb3IgbyBpbiBvcy5lbnZpcm9uLmdldCgKICAgICJBTExPV0VEX09SSUdJTlMiLCAiaHR0cHM6Ly9kZXNpY3JlYXRvci52ZXJjZWwuYXBwIikuc3BsaXQoIiwiKSBpZiBvLnN0cmlwKCldCk1BWF9VUExPQURfTUIgPSBpbnQob3MuZW52aXJvbi5nZXQoIk1BWF9VUExPQURfTUIiLCAiMTAwIikpCgphcHAgPSBGYXN0QVBJKHRpdGxlPSJEZXNpQ3JlYXRvciBCYWNrZW5kIikKYXBwLmFkZF9taWRkbGV3YXJlKAogICAgQ09SU01pZGRsZXdhcmUsCiAgICBhbGxvd19vcmlnaW5zPUFMTE9XRURfT1JJR0lOUyArIFsiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwgImh0dHA6Ly8xMjcuMC4wLjE6MzAwMCJdLAogICAgYWxsb3dfbWV0aG9kcz1bIioiXSwKICAgIGFsbG93X2hlYWRlcnM9WyIqIl0sCikKCmpvYnMgPSB7fSAgIyBqb2JfaWQgLT4gZGljdChzdGF0dXMsIHByb2dyZXNzLCByZXN1bHQsIGVycm9yLCBjcmVhdGVkKQpqb2JzX2xvY2sgPSB0aHJlYWRpbmcuTG9jaygpCgpPUFMgPSB7ImNvbXByZXNzIiwgInRyaW0iLCAiY29udmVydCIsICJzcGVlZCIsICJtdXRlIiwgImV4dHJhY3QtYXVkaW8iLAogICAgICAgInRyYW5zY3JpYmUiLCAicmVtb3ZlLWJnIn0KCgpkZWYgY2hlY2tfa2V5KHhfYXBpX2tleTogc3RyIHwgTm9uZSk6CiAgICBpZiBBUElfS0VZIGFuZCB4X2FwaV9rZXkgIT0gQVBJX0tFWToKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKHN0YXR1c19jb2RlPTQwMSwgZGV0YWlsPSJVbmF1dGhvcml6ZWQiKQoKCiMgLS0tLSBMYXp5IEFJIG1vZGVscyAobG9hZCBvbiBmaXJzdCB1c2UsIHN0YXkgaW4gUkFNKSAtLS0tCl93aGlzcGVyX21vZGVsID0gTm9uZQpfYmdfc2Vzc2lvbiA9IE5vbmUKCmRlZiBnZXRfd2hpc3BlcigpOgogICAgZ2xvYmFsIF93aGlzcGVyX21vZGVsCiAgICBpZiBfd2hpc3Blcl9tb2RlbCBpcyBOb25lOgogICAgICAgIGZyb20gZmFzdGVyX3doaXNwZXIgaW1wb3J0IFdoaXNwZXJNb2RlbAogICAgICAgIF93aGlzcGVyX21vZGVsID0gV2hpc3Blck1vZGVsKCJ0aW55IiwgZGV2aWNlPSJjcHUiLCBjb21wdXRlX3R5cGU9ImludDgiKQogICAgcmV0dXJuIF93aGlzcGVyX21vZGVsCgpkZWYgZ2V0X2JnX3Nlc3Npb24oKToKICAgIGdsb2JhbCBfYmdfc2Vzc2lvbgogICAgaWYgX2JnX3Nlc3Npb24gaXMgTm9uZToKICAgICAgICBmcm9tIHJlbWJnIGltcG9ydCBuZXdfc2Vzc2lvbgogICAgICAgIF9iZ19zZXNzaW9uID0gbmV3X3Nlc3Npb24oInUybmV0cCIpICAjIGxpZ2h0d2VpZ2h0IDQuN01CIG1vZGVsCiAgICByZXR1cm4gX2JnX3Nlc3Npb24KCgpkZWYgYnVpbGRfY21kKG9wOiBzdHIsIHNyYzogUGF0aCwgZHN0OiBQYXRoLCBwOiBkaWN0KSAtPiBsaXN0OgogICAgaWYgb3AgPT0gImNvbXByZXNzIjoKICAgICAgICBjcmYgPSBwLmdldCgiY3JmIiwgIjI4IikKICAgICAgICByZXR1cm4gWyJmZm1wZWciLCAiLXkiLCAiLWkiLCBzdHIoc3JjKSwgIi12Y29kZWMiLCAibGlieDI2NCIsCiAgICAgICAgICAgICAgICAiLWNyZiIsIGNyZiwgIi1wcmVzZXQiLCAidmVyeWZhc3QiLCAiLWFjb2RlYyIsICJhYWMiLCBzdHIoZHN0KV0KICAgIGlmIG9wID09ICJ0cmltIjoKICAgICAgICBzdGFydCwgZW5kID0gcC5nZXQoInN0YXJ0IiwgIjAiKSwgcC5nZXQoImVuZCIsICIiKQogICAgICAgIGNtZCA9IFsiZmZtcGVnIiwgIi15IiwgIi1zcyIsIHN0YXJ0XQogICAgICAgIGlmIGVuZDoKICAgICAgICAgICAgY21kICs9IFsiLXRvIiwgZW5kXQogICAgICAgIHJldHVybiBjbWQgKyBbIi1pIiwgc3RyKHNyYyksICItYyIsICJjb3B5Iiwgc3RyKGRzdCldCiAgICBpZiBvcCA9PSAiY29udmVydCI6CiAgICAgICAgZm10ID0gcC5nZXQoImZvcm1hdCIsICJtcDQiKQogICAgICAgIHJldHVybiBbImZmbXBlZyIsICIteSIsICItaSIsIHN0cihzcmMpLCBzdHIoZHN0LndpdGhfc3VmZml4KCIuIiArIGZtdCkpXQogICAgaWYgb3AgPT0gInNwZWVkIjoKICAgICAgICBzID0gZmxvYXQocC5nZXQoInNwZWVkIiwgIjEiKSkKICAgICAgICByZXR1cm4gWyJmZm1wZWciLCAiLXkiLCAiLWkiLCBzdHIoc3JjKSwKICAgICAgICAgICAgICAgICItZmlsdGVyOnYiLCBmInNldHB0cz17MS9zfSpQVFMiLCAiLWZpbHRlcjphIiwgZiJhdGVtcG89e3N9Iiwgc3RyKGRzdCldCiAgICBpZiBvcCA9PSAibXV0ZSI6CiAgICAgICAgcmV0dXJuIFsiZmZtcGVnIiwgIi15IiwgIi1pIiwgc3RyKHNyYyksICItYW4iLCAiLWM6diIsICJjb3B5Iiwgc3RyKGRzdCldCiAgICBpZiBvcCA9PSAiZXh0cmFjdC1hdWRpbyI6CiAgICAgICAgcmV0dXJuIFsiZmZtcGVnIiwgIi15IiwgIi1pIiwgc3RyKHNyYyksICItdm4iLCAiLWFjb2RlYyIsICJsaWJtcDNsYW1lIiwgc3RyKGRzdCldCiAgICByYWlzZSBWYWx1ZUVycm9yKCJ1bmtub3duIG9wIikKCgpkZWYgcnVuX2pvYihqb2JfaWQ6IHN0ciwgb3A6IHN0ciwgc3JjOiBQYXRoLCBkc3Q6IFBhdGgsIHBhcmFtczogZGljdCk6CiAgICB0cnk6CiAgICAgICAgd2l0aCBqb2JzX2xvY2s6CiAgICAgICAgICAgIGpvYnNbam9iX2lkXVsic3RhdHVzIl0gPSAicHJvY2Vzc2luZyIKICAgICAgICBjbWQgPSBidWlsZF9jbWQob3AsIHNyYywgZHN0LCBwYXJhbXMpCiAgICAgICAgIyBmaXggY29udmVydCBzdWZmaXgKICAgICAgICBpZiBvcCA9PSAiY29udmVydCI6CiAgICAgICAgICAgIGRzdCA9IGRzdC53aXRoX3N1ZmZpeCgiLiIgKyBwYXJhbXMuZ2V0KCJmb3JtYXQiLCAibXA0IikpCiAgICAgICAgcHJvYyA9IHN1YnByb2Nlc3MucnVuKGNtZCwgY2FwdHVyZV9vdXRwdXQ9VHJ1ZSwgdGV4dD1UcnVlLCB0aW1lb3V0PTYwMCkKICAgICAgICBpZiBwcm9jLnJldHVybmNvZGUgIT0gMDoKICAgICAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKHByb2Muc3RkZXJyWy0yMDAwOl0pCiAgICAgICAgIyBjbGVhbnVwIHVwbG9hZCwga2VlcCByZXN1bHQKICAgICAgICB0cnk6CiAgICAgICAgICAgIHNyYy51bmxpbmsobWlzc2luZ19vaz1UcnVlKQogICAgICAgIGV4Y2VwdCBPU0Vycm9yOgogICAgICAgICAgICBwYXNzCiAgICAgICAgd2l0aCBqb2JzX2xvY2s6CiAgICAgICAgICAgIGpvYnNbam9iX2lkXS51cGRhdGUoc3RhdHVzPSJkb25lIiwgcmVzdWx0PXN0cihkc3QpKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOiAgIyBub3FhOiBCTEUwMDEKICAgICAgICB3aXRoIGpvYnNfbG9jazoKICAgICAgICAgICAgam9ic1tqb2JfaWRdLnVwZGF0ZShzdGF0dXM9ImZhaWxlZCIsIGVycm9yPXN0cihlKVs6NTAwXSkKCgpAYXBwLmdldCgiL2hlYWx0aCIpCmRlZiBoZWFsdGgoKToKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgIm9wcyI6IHNvcnRlZChPUFMpfQoKCkBhcHAucG9zdCgiL3Byb2Nlc3MiLCBzdGF0dXNfY29kZT0yMDIpCmFzeW5jIGRlZiBwcm9jZXNzKAogICAgZmlsZTogVXBsb2FkRmlsZSA9IEZpbGUoLi4uKSwKICAgIG9wOiBzdHIgPSBGb3JtKC4uLiksCiAgICB4X2FwaV9rZXk6IHN0ciB8IE5vbmUgPSBIZWFkZXIoZGVmYXVsdD1Ob25lLCBhbGlhcz0iWC1BUEktS2V5IiksCiAgICBzdGFydDogc3RyID0gRm9ybShkZWZhdWx0PSIwIiksCiAgICBlbmQ6IHN0ciA9IEZvcm0oZGVmYXVsdD0iIiksCiAgICBmb3JtYXQ6IHN0ciA9IEZvcm0oZGVmYXVsdD0ibXA0IiksICAjIG5vcWE6IEEwMDIKICAgIHNwZWVkOiBzdHIgPSBGb3JtKGRlZmF1bHQ9IjEiKSwKICAgIGNyZjogc3RyID0gRm9ybShkZWZhdWx0PSIyOCIpLAopOgogICAgY2hlY2tfa2V5KHhfYXBpX2tleSkKICAgIGlmIG9wIG5vdCBpbiBPUFM6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbig0MDAsIGYidW5rbm93biBvcCAne29wfSciKQogICAgZGF0YSA9IGF3YWl0IGZpbGUucmVhZCgpCiAgICBpZiBsZW4oZGF0YSkgPiBNQVhfVVBMT0FEX01CICogMTAyNCAqIDEwMjQ6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbig0MTMsIGYibWF4IHtNQVhfVVBMT0FEX01CfU1CIikKICAgIGlmIGxlbihkYXRhKSA9PSAwOgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oNDAwLCAiZW1wdHkgZmlsZSIpCgogICAgam9iX2lkID0gdXVpZC51dWlkNCgpLmhleFs6MTJdCiAgICB3b3JrZGlyID0gQkFTRSAvIGpvYl9pZAogICAgd29ya2Rpci5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCiAgICBzcmMgPSB3b3JrZGlyIC8gKCJpbl8iICsgKGZpbGUuZmlsZW5hbWUgb3IgInZpZGVvIikucmVwbGFjZSgiLyIsICJfIilbLTYwOl0pCiAgICBzcmMud3JpdGVfYnl0ZXMoZGF0YSkKICAgIGV4dCA9ICIubXAzIiBpZiBvcCA9PSAiZXh0cmFjdC1hdWRpbyIgZWxzZSAiLm1wNCIKICAgIGRzdCA9IHdvcmtkaXIgLyAoIm91dCIgKyBleHQpCgogICAgcGFyYW1zID0geyJzdGFydCI6IHN0YXJ0LCAiZW5kIjogZW5kLCAiZm9ybWF0IjogZm9ybWF0LCAic3BlZWQiOiBzcGVlZCwgImNyZiI6IGNyZn0KICAgIHdpdGggam9ic19sb2NrOgogICAgICAgIGpvYnNbam9iX2lkXSA9IHsic3RhdHVzIjogInF1ZXVlZCIsICJvcCI6IG9wLCAiY3JlYXRlZCI6IHRpbWUudGltZSgpfQogICAgdCA9IHRocmVhZGluZy5UaHJlYWQodGFyZ2V0PXJ1bl9qb2IsIGFyZ3M9KGpvYl9pZCwgb3AsIHNyYywgZHN0LCBwYXJhbXMpLCBkYWVtb249VHJ1ZSkKICAgIHQuc3RhcnQoKQogICAgcmV0dXJuIHsiam9iX2lkIjogam9iX2lkLCAic3RhdHVzIjogInF1ZXVlZCJ9CgoKQGFwcC5nZXQoIi9qb2Ive2pvYl9pZH0iKQpkZWYgam9iX3N0YXR1cyhqb2JfaWQ6IHN0ciwgeF9hcGlfa2V5OiBzdHIgfCBOb25lID0gSGVhZGVyKGRlZmF1bHQ9Tm9uZSwgYWxpYXM9IlgtQVBJLUtleSIpKToKICAgIGNoZWNrX2tleSh4X2FwaV9rZXkpCiAgICB3aXRoIGpvYnNfbG9jazoKICAgICAgICBqb2IgPSBqb2JzLmdldChqb2JfaWQpCiAgICBpZiBub3Qgam9iOgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oNDA0LCAidW5rbm93biBqb2IiKQogICAgb3V0ID0geyJqb2JfaWQiOiBqb2JfaWQsICJzdGF0dXMiOiBqb2JbInN0YXR1cyJdfQogICAgaWYgam9iWyJzdGF0dXMiXSA9PSAiZmFpbGVkIjoKICAgICAgICBvdXRbImVycm9yIl0gPSBqb2IuZ2V0KCJlcnJvciIsICIiKQogICAgcmV0dXJuIG91dAoKCkBhcHAuZ2V0KCIvZG93bmxvYWQve2pvYl9pZH0iKQpkZWYgZG93bmxvYWQoam9iX2lkOiBzdHIsIHhfYXBpX2tleTogc3RyIHwgTm9uZSA9IEhlYWRlcihkZWZhdWx0PU5vbmUsIGFsaWFzPSJYLUFQSS1LZXkiKSk6CiAgICBjaGVja19rZXkoeF9hcGlfa2V5KQogICAgd2l0aCBqb2JzX2xvY2s6CiAgICAgICAgam9iID0gam9icy5nZXQoam9iX2lkKQogICAgaWYgbm90IGpvYiBvciBqb2JbInN0YXR1cyJdICE9ICJkb25lIjoKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKDQwNCBpZiBub3Qgam9iIGVsc2UgNDA5LCAibm90IHJlYWR5IikKICAgIHBhdGggPSBQYXRoKGpvYlsicmVzdWx0Il0pCiAgICBpZiBub3QgcGF0aC5leGlzdHMoKToKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKDQxMCwgImV4cGlyZWQiKQoKICAgIGRlZiBjbGVhbnVwKCk6CiAgICAgICAgdGltZS5zbGVlcCg1KQogICAgICAgIHNodXRpbC5ybXRyZWUoQkFTRSAvIGpvYl9pZCwgaWdub3JlX2Vycm9ycz1UcnVlKQogICAgICAgIHdpdGggam9ic19sb2NrOgogICAgICAgICAgICBqb2JzLnBvcChqb2JfaWQsIE5vbmUpCgogICAgdGhyZWFkaW5nLlRocmVhZCh0YXJnZXQ9Y2xlYW51cCwgZGFlbW9uPVRydWUpLnN0YXJ0KCkKICAgIHJldHVybiBGaWxlUmVzcG9uc2UocGF0aCwgZmlsZW5hbWU9ImRlc2ljcmVhdG9yLW91dHB1dCIgKyBwYXRoLnN1ZmZpeCkKCgpAYXBwLnBvc3QoIi90cmFuc2NyaWJlIikKYXN5bmMgZGVmIHRyYW5zY3JpYmUoCiAgICBmaWxlOiBVcGxvYWRGaWxlID0gRmlsZSguLi4pLAogICAgeF9hcGlfa2V5OiBzdHIgfCBOb25lID0gSGVhZGVyKGRlZmF1bHQ9Tm9uZSwgYWxpYXM9IlgtQVBJLUtleSIpLAopOgogICAgIiIiQXVkaW8vdmlkZW8gLT4gV2hpc3BlciB0aW55IHRyYW5zY3JpcHRpb24gd2l0aCB3b3JkIHRpbWVzdGFtcHMgKHN5bmMpLiIiIgogICAgY2hlY2tfa2V5KHhfYXBpX2tleSkKICAgIGRhdGEgPSBhd2FpdCBmaWxlLnJlYWQoKQogICAgaWYgbGVuKGRhdGEpID4gTUFYX1VQTE9BRF9NQiAqIDEwMjQgKiAxMDI0OgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oNDEzLCBmIm1heCB7TUFYX1VQTE9BRF9NQn1NQiIpCiAgICBpZiBsZW4oZGF0YSkgPT0gMDoKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKDQwMCwgImVtcHR5IGZpbGUiKQogICAgdG1wID0gQkFTRSAvICgidHJfIiArIHV1aWQudXVpZDQoKS5oZXhbOjhdICsgIl8iICsKICAgICAgICAgICAgICAgICAgKGZpbGUuZmlsZW5hbWUgb3IgImF1ZGlvIikucmVwbGFjZSgiLyIsICJfIilbLTQwOl0pCiAgICB0bXAud3JpdGVfYnl0ZXMoZGF0YSkKICAgIHRyeToKICAgICAgICBtb2RlbCA9IGdldF93aGlzcGVyKCkKICAgICAgICBzZWdtZW50cywgX2luZm8gPSBtb2RlbC50cmFuc2NyaWJlKHN0cih0bXApLCB3b3JkX3RpbWVzdGFtcHM9VHJ1ZSkKICAgICAgICBvdXQgPSBbXQogICAgICAgIGZvciBzZWcgaW4gc2VnbWVudHM6CiAgICAgICAgICAgIHdvcmRzID0gW10KICAgICAgICAgICAgaWYgc2VnLndvcmRzOgogICAgICAgICAgICAgICAgd29yZHMgPSBbeyJ3Ijogdy53b3JkLnN0cmlwKCksICJzIjogcm91bmQody5zdGFydCwgMiksICJlIjogcm91bmQody5lbmQsIDIpfQogICAgICAgICAgICAgICAgICAgICAgICAgZm9yIHcgaW4gc2VnLndvcmRzXQogICAgICAgICAgICBvdXQuYXBwZW5kKHsic3RhcnQiOiByb3VuZChzZWcuc3RhcnQsIDIpLCAiZW5kIjogcm91bmQoc2VnLmVuZCwgMiksCiAgICAgICAgICAgICAgICAgICAgICAgICJ0ZXh0Ijogc2VnLnRleHQuc3RyaXAoKSwgIndvcmRzIjogd29yZHN9KQogICAgICAgIHJldHVybiB7InNlZ21lbnRzIjogb3V0fQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOiAgIyBub3FhOiBCTEUwMDEKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKDUwMCwgZiJ0cmFuc2NyaWJlIGZhaWxlZDoge3N0cihlKVs6MjAwXX0iKQogICAgZmluYWxseToKICAgICAgICB0cnk6CiAgICAgICAgICAgIHRtcC51bmxpbmsobWlzc2luZ19vaz1UcnVlKQogICAgICAgIGV4Y2VwdCBPU0Vycm9yOgogICAgICAgICAgICBwYXNzCgoKQGFwcC5wb3N0KCIvcmVtb3ZlLWJnIikKYXN5bmMgZGVmIHJlbW92ZV9iZygKICAgIGZpbGU6IFVwbG9hZEZpbGUgPSBGaWxlKC4uLiksCiAgICB4X2FwaV9rZXk6IHN0ciB8IE5vbmUgPSBIZWFkZXIoZGVmYXVsdD1Ob25lLCBhbGlhcz0iWC1BUEktS2V5IiksCik6CiAgICAiIiJJbWFnZSAtPiB0cmFuc3BhcmVudCBQTkcgYmFja2dyb3VuZCByZW1vdmFsIChzeW5jKS4iIiIKICAgIGNoZWNrX2tleSh4X2FwaV9rZXkpCiAgICBkYXRhID0gYXdhaXQgZmlsZS5yZWFkKCkKICAgIGlmIGxlbihkYXRhKSA+IDI1ICogMTAyNCAqIDEwMjQ6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbig0MTMsICJtYXggMjVNQiBpbWFnZSIpCiAgICBpZiBsZW4oZGF0YSkgPT0gMDoKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKDQwMCwgImVtcHR5IGZpbGUiKQogICAgdHJ5OgogICAgICAgIGZyb20gcmVtYmcgaW1wb3J0IHJlbW92ZQogICAgICAgIGZyb20gUElMIGltcG9ydCBJbWFnZQogICAgICAgIGltcG9ydCBpbwogICAgICAgIHNlc3Npb24gPSBnZXRfYmdfc2Vzc2lvbigpCiAgICAgICAgb3V0ID0gcmVtb3ZlKGRhdGEsIHNlc3Npb249c2Vzc2lvbikKICAgICAgICAjIGVuc3VyZSBQTkcKICAgICAgICBpbWcgPSBJbWFnZS5vcGVuKGlvLkJ5dGVzSU8ob3V0IGlmIGlzaW5zdGFuY2Uob3V0LCBieXRlcykgZWxzZSBvdXQpKQogICAgICAgIGJ1ZiA9IGlvLkJ5dGVzSU8oKQogICAgICAgIGltZy5zYXZlKGJ1ZiwgZm9ybWF0PSJQTkciKQogICAgICAgIHJldHVybiBSZXNwb25zZShjb250ZW50PWJ1Zi5nZXR2YWx1ZSgpLCBtZWRpYV90eXBlPSJpbWFnZS9wbmciKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOiAgIyBub3FhOiBCTEUwMDEKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKDUwMCwgZiJyZW1vdmUtYmcgZmFpbGVkOiB7c3RyKGUpWzoyMDBdfSIpCg==
+"""
+DesiCreator Backend — free video-processing API (ffmpeg).
+Runs on Render free tier or Modal. Async job pattern:
+  POST /process (upload) -> 202 + job_id -> GET /job/{id} (poll) -> GET /download/{id}
+Env vars:
+  BACKEND_API_KEY  - shared secret; frontend sends X-API-Key header (set on deploy)
+  ALLOWED_ORIGINS  - comma-separated CORS origins (default: https://desicreator.vercel.app)
+  MAX_UPLOAD_MB    - upload cap (default 100)
+"""
+import os
+import uuid
+import time
+import shutil
+import threading
+import subprocess
+from pathlib import Path
+
+from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Header
+from fastapi.responses import FileResponse, JSONResponse, Response
+from fastapi.middleware.cors import CORSMiddleware
+
+BASE = Path("/tmp/desicreator-jobs")
+BASE.mkdir(parents=True, exist_ok=True)
+
+API_KEY = os.environ.get("BACKEND_API_KEY", "")
+ALLOWED_ORIGINS = [o.strip() for o in os.environ.get(
+    "ALLOWED_ORIGINS", "https://desicreator.vercel.app").split(",") if o.strip()]
+MAX_UPLOAD_MB = int(os.environ.get("MAX_UPLOAD_MB", "100"))
+
+app = FastAPI(title="DesiCreator Backend")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=ALLOWED_ORIGINS + ["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+jobs = {}  # job_id -> dict(status, progress, result, error, created)
+jobs_lock = threading.Lock()
+
+OPS = {"compress", "trim", "convert", "speed", "mute", "extract-audio",
+       "transcribe", "remove-bg"}
+
+
+def check_key(x_api_key: str | None):
+    if API_KEY and x_api_key != API_KEY:
+        raise HTTPException(status_code=401, detail="Unauthorized")
+
+
+# ---- Lazy AI models (load on first use, stay in RAM) ----
+_whisper_model = None
+_bg_session = None
+
+def get_whisper():
+    global _whisper_model
+    if _whisper_model is None:
+        from faster_whisper import WhisperModel
+        _whisper_model = WhisperModel("tiny", device="cpu", compute_type="int8")
+    return _whisper_model
+
+def get_bg_session():
+    global _bg_session
+    if _bg_session is None:
+        from rembg import new_session
+        _bg_session = new_session("u2netp")  # lightweight 4.7MB model
+    return _bg_session
+
+
+def build_cmd(op: str, src: Path, dst: Path, p: dict) -> list:
+    if op == "compress":
+        crf = p.get("crf", "28")
+        return ["ffmpeg", "-y", "-i", str(src), "-vcodec", "libx264",
+                "-crf", crf, "-preset", "veryfast", "-acodec", "aac", str(dst)]
+    if op == "trim":
+        start, end = p.get("start", "0"), p.get("end", "")
+        cmd = ["ffmpeg", "-y", "-ss", start]
+        if end:
+            cmd += ["-to", end]
+        return cmd + ["-i", str(src), "-c", "copy", str(dst)]
+    if op == "convert":
+        fmt = p.get("format", "mp4")
+        return ["ffmpeg", "-y", "-i", str(src), str(dst.with_suffix("." + fmt))]
+    if op == "speed":
+        s = float(p.get("speed", "1"))
+        return ["ffmpeg", "-y", "-i", str(src),
+                "-filter:v", f"setpts={1/s}*PTS", "-filter:a", f"atempo={s}", str(dst)]
+    if op == "mute":
+        return ["ffmpeg", "-y", "-i", str(src), "-an", "-c:v", "copy", str(dst)]
+    if op == "extract-audio":
+        return ["ffmpeg", "-y", "-i", str(src), "-vn", "-acodec", "libmp3lame", str(dst)]
+    raise ValueError("unknown op")
+
+
+def run_job(job_id: str, op: str, src: Path, dst: Path, params: dict):
+    try:
+        with jobs_lock:
+            jobs[job_id]["status"] = "processing"
+        cmd = build_cmd(op, src, dst, params)
+        # fix convert suffix
+        if op == "convert":
+            dst = dst.with_suffix("." + params.get("format", "mp4"))
+        proc = subprocess.run(cmd, capture_output=True, text=True, timeout=600)
+        if proc.returncode != 0:
+            raise RuntimeError(proc.stderr[-2000:])
+        # cleanup upload, keep result
+        try:
+            src.unlink(missing_ok=True)
+        except OSError:
+            pass
+        with jobs_lock:
+            jobs[job_id].update(status="done", result=str(dst))
+    except Exception as e:  # noqa: BLE001
+        with jobs_lock:
+            jobs[job_id].update(status="failed", error=str(e)[:500])
+
+
+@app.get("/health")
+def health():
+    return {"ok": True, "ops": sorted(OPS)}
+
+
+@app.post("/process", status_code=202)
+async def process(
+    file: UploadFile = File(...),
+    op: str = Form(...),
+    x_api_key: str | None = Header(default=None, alias="X-API-Key"),
+    start: str = Form(default="0"),
+    end: str = Form(default=""),
+    format: str = Form(default="mp4"),  # noqa: A002
+    speed: str = Form(default="1"),
+    crf: str = Form(default="28"),
+):
+    check_key(x_api_key)
+    if op not in OPS:
+        raise HTTPException(400, f"unknown op '{op}'")
+    data = await file.read()
+    if len(data) > MAX_UPLOAD_MB * 1024 * 1024:
+        raise HTTPException(413, f"max {MAX_UPLOAD_MB}MB")
+    if len(data) == 0:
+        raise HTTPException(400, "empty file")
+
+    job_id = uuid.uuid4().hex[:12]
+    workdir = BASE / job_id
+    workdir.mkdir(parents=True, exist_ok=True)
+    src = workdir / ("in_" + (file.filename or "video").replace("/", "_")[-60:])
+    src.write_bytes(data)
+    ext = ".mp3" if op == "extract-audio" else ".mp4"
+    dst = workdir / ("out" + ext)
+
+    params = {"start": start, "end": end, "format": format, "speed": speed, "crf": crf}
+    with jobs_lock:
+        jobs[job_id] = {"status": "queued", "op": op, "created": time.time()}
+    t = threading.Thread(target=run_job, args=(job_id, op, src, dst, params), daemon=True)
+    t.start()
+    return {"job_id": job_id, "status": "queued"}
+
+
+@app.get("/job/{job_id}")
+def job_status(job_id: str, x_api_key: str | None = Header(default=None, alias="X-API-Key")):
+    check_key(x_api_key)
+    with jobs_lock:
+        job = jobs.get(job_id)
+    if not job:
+        raise HTTPException(404, "unknown job")
+    out = {"job_id": job_id, "status": job["status"]}
+    if job["status"] == "failed":
+        out["error"] = job.get("error", "")
+    return out
+
+
+@app.get("/download/{job_id}")
+def download(job_id: str, x_api_key: str | None = Header(default=None, alias="X-API-Key")):
+    check_key(x_api_key)
+    with jobs_lock:
+        job = jobs.get(job_id)
+    if not job or job["status"] != "done":
+        raise HTTPException(404 if not job else 409, "not ready")
+    path = Path(job["result"])
+    if not path.exists():
+        raise HTTPException(410, "expired")
+
+    def cleanup():
+        time.sleep(5)
+        shutil.rmtree(BASE / job_id, ignore_errors=True)
+        with jobs_lock:
+            jobs.pop(job_id, None)
+
+    threading.Thread(target=cleanup, daemon=True).start()
+    return FileResponse(path, filename="desicreator-output" + path.suffix)
+
+
+@app.post("/transcribe")
+async def transcribe(
+    file: UploadFile = File(...),
+    x_api_key: str | None = Header(default=None, alias="X-API-Key"),
+):
+    """Audio/video -> Whisper tiny transcription with word timestamps (sync)."""
+    check_key(x_api_key)
+    data = await file.read()
+    if len(data) > MAX_UPLOAD_MB * 1024 * 1024:
+        raise HTTPException(413, f"max {MAX_UPLOAD_MB}MB")
+    if len(data) == 0:
+        raise HTTPException(400, "empty file")
+    tmp = BASE / ("tr_" + uuid.uuid4().hex[:8] + "_" +
+                  (file.filename or "audio").replace("/", "_")[-40:])
+    tmp.write_bytes(data)
+    try:
+        model = get_whisper()
+        segments, _info = model.transcribe(str(tmp), word_timestamps=True)
+        out = []
+        for seg in segments:
+            words = []
+            if seg.words:
+                words = [{"w": w.word.strip(), "s": round(w.start, 2), "e": round(w.end, 2)}
+                         for w in seg.words]
+            out.append({"start": round(seg.start, 2), "end": round(seg.end, 2),
+                        "text": seg.text.strip(), "words": words})
+        return {"segments": out}
+    except Exception as e:  # noqa: BLE001
+        raise HTTPException(500, f"transcribe failed: {str(e)[:200]}")
+    finally:
+        try:
+            tmp.unlink(missing_ok=True)
+        except OSError:
+            pass
+
+
+@app.post("/remove-bg")
+async def remove_bg(
+    file: UploadFile = File(...),
+    x_api_key: str | None = Header(default=None, alias="X-API-Key"),
+):
+    """Image -> transparent PNG background removal (sync)."""
+    check_key(x_api_key)
+    data = await file.read()
+    if len(data) > 25 * 1024 * 1024:
+        raise HTTPException(413, "max 25MB image")
+    if len(data) == 0:
+        raise HTTPException(400, "empty file")
+    try:
+        from rembg import remove
+        from PIL import Image
+        import io
+        session = get_bg_session()
+        out = remove(data, session=session)
+        # ensure PNG
+        img = Image.open(io.BytesIO(out if isinstance(out, bytes) else out))
+        buf = io.BytesIO()
+        img.save(buf, format="PNG")
+        return Response(content=buf.getvalue(), media_type="image/png")
+    except Exception as e:  # noqa: BLE001
+        raise HTTPException(500, f"remove-bg failed: {str(e)[:200]}")
