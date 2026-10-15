@@ -1,13 +1,1 @@
-FROM python:3.11-slim
-
-# ffmpeg for video processing; libgl1+libgomp1 for opencv/onnxruntime (rembg)
-RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg libgl1 libgomp1 \
-    && rm -rf /var/lib/apt/lists/*
-
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-COPY app.py .
-
-# Render/Modal inject $PORT; default 8000
-CMD ["sh", "-c", "uvicorn app:app --host 0.0.0.0 --port ${PORT:-8000}"]
+RlJPTSBweXRob246My4xMS1zbGltCgojIGZmbXBlZyBmb3IgdmlkZW8gcHJvY2Vzc2luZzsgbGliZ2wxK2xpYmdvbXAxIGZvciBvcGVuY3Yvb25ueHJ1bnRpbWUgKHJlbWJnKQpSVU4gYXB0LWdldCB1cGRhdGUgJiYgYXB0LWdldCBpbnN0YWxsIC15IC0tbm8taW5zdGFsbC1yZWNvbW1lbmRzIGZmbXBlZyBsaWJnbDEgbGliZ29tcDEgXAogICAgJiYgcm0gLXJmIC92YXIvbGliL2FwdC9saXN0cy8qCgpXT1JLRElSIC9hcHAKQ09QWSByZXF1aXJlbWVudHMudHh0IC4KUlVOIHBpcCBpbnN0YWxsIC0tbm8tY2FjaGUtZGlyIC1yIHJlcXVpcmVtZW50cy50eHQKIyBBSSBwYWNrYWdlcyBvcHRpb25hbCDigJQgYnVpbGQgY29udGludWVzIGV2ZW4gaWYgdGhlc2UgZmFpbCAoYXBwIGRlZ3JhZGVzIGdyYWNlZnVsbHkpCkNPUFkgcmVxdWlyZW1lbnRzLWFpLnR4dCAuClJVTiBwaXAgaW5zdGFsbCAtLW5vLWNhY2hlLWRpciAtciByZXF1aXJlbWVudHMtYWkudHh0IHx8IGVjaG8gIkFJIHBhY2thZ2VzIGZhaWxlZCAtIGNvbnRpbnVpbmcgd2l0aG91dCB0aGVtIgpDT1BZIGFwcC5weSAuCgojIFJlbmRlci9Nb2RhbCBpbmplY3QgJFBPUlQ7IGRlZmF1bHQgODAwMApDTUQgWyJzaCIsICItYyIsICJ1dmljb3JuIGFwcDphcHAgLS1ob3N0IDAuMC4wLjAgLS1wb3J0ICR7UE9SVDotODAwMH0iXQo=
