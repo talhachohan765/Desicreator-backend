@@ -1,1 +1,4 @@
-IyBIZWF2eSBBSSBwYWNrYWdlcyDigJQgb3B0aW9uYWw7IGJ1aWxkIGNvbnRpbnVlcyBpZiB0aGVzZSBmYWlsCmZhc3Rlci13aGlzcGVyPT0xLjAuMwpyZW1iZz09Mi4wLjU1Cm9ubnhydW50aW1lPj0xLjE3LjAK
+# Heavy AI packages — optional; build continues if these fail
+faster-whisper==1.0.3
+rembg==2.0.55
+onnxruntime>=1.17.0
